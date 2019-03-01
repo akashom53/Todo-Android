@@ -10,15 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:name=".TodoApp">
-        <activity android:name=".MainActivity">
+        <activity android:name=".SplashActivity"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".modules.todoList.view.TodoListView"></activity>
-        <activity android:name=".modules.createTodo.view.CreateTodoView"></activity>
+        <activity android:name=".modules.todoList.view.TodoListView"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".modules.createTodo.view.CreateTodoView"
+            android:screenOrientation="portrait"></activity>
     </application>
 
 </manifest>

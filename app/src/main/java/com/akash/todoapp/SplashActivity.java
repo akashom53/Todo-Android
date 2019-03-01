@@ -5,7 +5,7 @@ import android.os.Bundle;
 
 import com.akash.todoapp.modules.todoList.view.TodoListView;
 
-public class MainActivity extends AppCompatActivity {
+public class SplashActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
